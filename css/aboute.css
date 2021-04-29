@@ -1,0 +1,11 @@
+.aboute-wrapper {
+    max-width: 941px;
+}
+
+.aboute__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}

@@ -8,7 +8,8 @@
   background-repeat: no-repeat;
   text-align: center;
   color: var(--basic-white);  
-  outline: 1px red solid;
+  border-left:  1px solid #E6E6E6;
+  border-right:  1px solid #E6E6E6; 
 }
 
 .header__logo {
