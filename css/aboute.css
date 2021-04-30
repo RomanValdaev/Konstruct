@@ -1,11 +1,106 @@
+/* Стилизуем блок Описание */
+
 .aboute-wrapper {
     max-width: 941px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .aboute__title {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: var(--basic-gray);
+    margin-top: 57px;
+    text-align: center;
+}
+
+/* Стилизуем общий блок Flexbox */
+.aboute__flexbox {
+    display: flex;
+    justify-content: start;
+    align-items: bottom;
+}
+
+.aboute__caption {
+    width: 405px;
+}
+
+.aboute__subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
     line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: var(--basic-gray);
+    margin-top: 70px;
+}
+
+.aboute__subtitle--span a {
+    color: #00A4E5;
+}
+
+.aboute__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: var(--basic-gray);
+    margin-top: 30px;
+}
+
+/* Стилизуем карты*/
+.aboute__block {
+    display: flex;
+    justify-content: start;
+    align-items: bottom;
+    margin-left: 76px;
+    margin-top: 96px;  
+}
+
+/* Стилизуем базовую карту */
+.aboute__card {
+    display: block;
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
+
+/* Стилизуем карты по отдельности */
+.card1 {
+    background-image: url(../img/card-img1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card2 {
+    background-image: url(../img/card-img2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card3 {
+    background-image: url(../img/card-img3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+/* Стилизуем надписи карт */
+.aboute__card-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: var(--basic-white);
+    padding-top: 15px;
+    padding-left: 15px;
 }
