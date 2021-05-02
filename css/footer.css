@@ -1,0 +1,224 @@
+/* Стилизуем общий блок Footer */
+
+/* ============================ */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 240px 60px;
+    /* 25% 60% 15%; */
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+/* Стилизуем отдельные блоки */
+
+/* ========================== */
+
+/* Блок регистрации */
+
+.footer__email {
+    width: 100%;
+    height: 100%;
+    background-color: var(--footer-black);
+    grid-row: 1/2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer__email--text {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+    margin-left: 378px;
+}
+
+/* Input E-mail */
+
+/* !!!!!!Надо допилить кнопки и формы */
+
+.footer__form {
+    margin-left: 70px;    
+}
+
+.footer__form--email {
+    width: 250px;
+    height: 40px;
+    background-color: var(--basic-white);
+    border: 1px solid #979797;
+    opacity: 0.7;
+}
+
+/* Form Button */
+
+.footer__form--btn {
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: var(--basic-white);
+    background-color: #00A4E5;
+}
+
+.footer__form--btn:hover {
+    opacity: 0.5;
+}
+
+/* Блок с описанием и навигацией */
+
+.footer__contact {
+    display: grid;
+    grid-template-columns: 498px 333px 216px 380px;
+    grid-template-rows: 1fr;
+    background-color: #141A20;
+    color: var(--basic-white);
+}
+
+/* Ferst grid-block */
+
+.footer__aboute {
+    margin-left: 249px;
+    margin-top: 42px;    
+}
+
+.aboute__text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+}
+
+.aboute__logo {
+    margin-top: 19px;
+}
+
+.aboute__text--lorem {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    margin-top: 15px;
+}
+
+/* Second grid-block */
+
+.footer__nav {    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34px 1fr;
+    margin-left: 71px;
+    margin-top: 42px;
+}
+
+.nav__list-block {
+    display: flex;
+    justify-content: start;
+}
+
+.nav__title {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+}
+
+/* Link */
+
+.nav__link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+}
+
+.nav__link:hover {
+    color: #00A4E5;
+}
+
+.nav__link:active {
+    color: #00A4E5;
+    opacity: 0.5;
+}
+
+/* lists */
+
+.list-one {
+    margin-right: 33px;
+}
+
+.list-two {
+    margin-right: 38px;
+}
+
+/* Третий блок */
+
+.footer__adress {    
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+    margin-top: 42px;
+    margin-left: 58px;
+}
+
+.footer__adress--text-one, .footer__adress--text-two, .footer__adress--text-three, .footer__adress--text-four {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__adress--text-two {
+    margin-top: 15px;
+}
+
+.footer__adress--text-three {
+    margin-top: 20px;
+}
+
+.footer__adress--text-four {
+    margin-top: 20px;
+}
+
+/* Четвертый блок */
+
+.footer__socials { 
+    margin-top: 43px;    
+}
+
+.socials-block {
+    margin-top: 30px;
+}
+
+.socials__logo {
+    margin-right: 20px;
+}
+
+
+/* Copyrigth Block */
+
+.footer__copyrigth {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footer-black);
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: var(--basic-white);
+}

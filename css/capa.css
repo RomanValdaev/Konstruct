@@ -1,0 +1,105 @@
+/* Базовые настройки блока */
+.service {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--basic-gray);
+}
+
+.service-wrapper {
+    max-width: 940px;
+    margin: 0 auto;    
+    margin-top: 118px;    
+}
+
+/* Настройки блока "Описания" */
+.service__heding {
+    display: flex;
+    justify-content: space-between;
+    height: 116px;
+}
+
+.service__title {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: var(--basic-gray);
+    margin-right: 154px;
+}
+
+.service__text {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: var(--basic-gray);
+    width: 405.4px;
+    margin-right: 32px;
+}
+
+.service__btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.service__btn:hover {
+    opacity: 0.5;
+}
+
+/* Стилизуем блок "Карты" */
+.service__card {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.card-block {
+    width: 295px;
+    height: 330px;
+    background: var(--basic-white);
+    border: 1px solid #E6E6E6;
+}
+
+.card-block__wrapper {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    margin-top: 138px;
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;    
+    margin-top: 13px;
+}
+
+.card-block1 {
+    background-image: url(../img/service-card1.svg);
+    background-repeat: no-repeat;
+    background-position: 23px 38px;
+}
+
+.card-block2 {
+    background-image: url(../img/service-card2.svg);
+    background-repeat: no-repeat;
+    background-position: 23px 38px;
+}
+
+.card-block3 {
+    background-image: url(../img/service-card3.svg);
+    background-repeat: no-repeat;
+    background-position: 23px 38px;
+}

@@ -1,14 +1,16 @@
 /* Стилизуем блок Описание */
+.aboute {
+    font-family: Open Sans;
+    font-style: normal;
+}
 
 .aboute-wrapper {
-    max-width: 941px;
+    max-width: 940px;
     margin: 0 auto;
-    position: relative;
+    position: relative;    
 }
 
 .aboute__title {
-    font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -30,8 +32,6 @@
 }
 
 .aboute__subtitle {
-    font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -44,9 +44,12 @@
     color: #00A4E5;
 }
 
-.aboute__text {
-    font-family: Open Sans;
-    font-style: normal;
+.aboute__subtitle--span a:hover {
+    opacity: 0.5;
+}
+
+
+.aboute__text {    
     font-weight: normal;
     font-size: 13px;
     line-height: 23px;
@@ -58,18 +61,17 @@
 /* Стилизуем карты*/
 .aboute__block {
     display: flex;
-    justify-content: start;
+    justify-content: end; 
     align-items: bottom;
     margin-left: 76px;
-    margin-top: 96px;  
+    margin-top: 96px;     
 }
 
 /* Стилизуем базовую карту */
 .aboute__card {
     display: block;
     width: 140px;
-    height: 224px;
-    margin-right: 20px;
+    height: 224px;   
 }
 
 /* Стилизуем карты по отдельности */
@@ -77,12 +79,14 @@
     background-image: url(../img/card-img1.png);
     background-repeat: no-repeat;
     background-position: center center;
+    margin-right: 20px;
 }
 
 .card2 {
     background-image: url(../img/card-img2.png);
     background-repeat: no-repeat;
     background-position: center center;
+    margin-right: 20px;
 }
 
 .card3 {
@@ -93,9 +97,7 @@
 }
 
 /* Стилизуем надписи карт */
-.aboute__card-title {
-    font-family: Open Sans;
-    font-style: normal;
+.aboute__card-title {    
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
