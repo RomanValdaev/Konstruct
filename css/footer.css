@@ -83,7 +83,7 @@
     color: var(--basic-white);
 }
 
-/* Ferst grid-block */
+/* First block */
 
 .footer__aboute {
     margin-left: 249px;
@@ -111,7 +111,7 @@
     margin-top: 15px;
 }
 
-/* Second grid-block */
+/* Second block */
 
 .footer__nav {    
     display: grid;
@@ -134,7 +134,7 @@
     color: var(--basic-white);
 }
 
-/* Link */
+/* Links */
 
 .nav__link {
     font-weight: 600;
@@ -163,7 +163,7 @@
     margin-right: 38px;
 }
 
-/* Третий блок */
+/* Third block */
 
 .footer__adress {    
     font-weight: normal;
@@ -193,7 +193,7 @@
     margin-top: 20px;
 }
 
-/* Четвертый блок */
+/* Fourth block */
 
 .footer__socials { 
     margin-top: 43px;    
